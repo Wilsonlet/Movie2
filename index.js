@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
       const title = movieTitle.value;
 
         // Make an HTTP request to the OMDB API to get movie information
-          fetch(`http://www.omdbapi.com/?apikey=your_api_key&t=${title}`)
+          fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=f8d3aedd`=${title}`)
               .then((response) => response.json())
                   .then((data) => {
                         // Check if the movie was found
