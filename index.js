@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
       const title = movieTitle.value;
 
         // Make an HTTP request to the OMDB API to get movie information
-          fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=f8d3aedd`=${title}`)
+          fetch=(`http://www.omdbapi.com/?i=tt3896198&apikey=f8d3aedd=${movie
               .then((response) => response.json())
                   .then((data) => {
                         // Check if the movie was found
@@ -50,6 +50,5 @@ form.addEventListener("submit", (event) => {
                                                                                                                                                                                                             // If the movie was not found, display an error message
                                                                                                                                                                                                                     movieInfo.textContent = "Movie not found. Please try again.";
                                                                                                                                                                                                                           }
-                                                                                                                                                                                                                              });
-                                                                                                                                                                                                                              });
+                  ))
                                                                                                                                                                                                                               /////////////
